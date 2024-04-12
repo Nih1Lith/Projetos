@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charsert = "UTF-8">
+<head>
+    <body>
+        <script>
+
+            //Loop Infinito
+            let qtdNumeros = prompt("Digite a quantidade de números para o calcúlo da média");
+            let soma = 0;
+            let contador = qtdNumeros
+
+            while(contador > 0){
+                let numero = parseInt(prompt("Digite um número"));
+                soma += numero;
+                contador--
+                
+                
+            }
+            let media = soma / qtdNumeros;
+            console.log(media);
+
+            let DiaDaSemana = prompt("Qual o dia da semana? ");
+            if (DiaDaSemana == "sabado" && "domingo"){
+                alert("Bom Fim de Semana!");
+            } else {
+                alert("Boa Semana!");
+            }
+
+            let numero = prompt("Digite um número: ")
+            if(numero < 0){
+                alert("Número Negativo")
+            }
+
+            pontuacao = 105
+            if(pontuacao >= 100){
+                console.log("Voce ganhou")
+            } else {
+                console.log("Voce perdeu")
+            }
+            // Consertar
+            let numeroSecreto = 5;
+            let pontuacao = 0;
+            while(pontuacao < 100){
+                let chute = prompt("Digite um número: ");
+                console.log(numeroSecreto);
+                if(chute == numeroSecreto){
+                    potuacao += 50
+                    alert("Parabéns, sua pontuação atual é" + pontuacao);
+                } else{
+                    pontuacao -= 2;
+                    alert("Você errou, sua pontuação é, " + pontuacao);
+                    continue;
+                }
+                break;
+                alert("Fim de Jogo" + pontuacao);
+            }
+
+
+            let nome = prompt("Digite seu nome")
+            alert(`Bem vindo, ${nome}`)
+        </script>
+    </body>
+</head>

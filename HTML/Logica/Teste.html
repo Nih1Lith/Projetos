@@ -1,0 +1,23 @@
+<meta charset = "UTF-8">
+<h1>Título</h1>
+<br>
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(texto) {
+		document.write(texto);
+		pulaLinha();
+	}
+
+	alert("Olá");
+
+	var x = 20;
+	var y = 30;
+	var z = 45;
+	var soma = x+y+z;
+	var media = soma/3;
+	mostra("A Soma é: " + soma);
+	mostra("A Média é: " + Math.round(media));
+</script>

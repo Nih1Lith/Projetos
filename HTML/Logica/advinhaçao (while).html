@@ -1,0 +1,36 @@
+<meta charset = "UTF-8">
+<h1>Jogo de Advinhação</h1>
+<br>
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(texto){
+		document.write(texto);
+		pulaLinha();
+	}
+
+	function sorteia(n) {
+		return Math.round(Math.random()*n);
+	}
+
+	var numeroSecreto = sorteia(10);
+	var rodada = 1;
+	
+	while (rodada <= 3){
+		chute = parseInt(prompt("Digite um número: "));
+		if (chute == numeroSecreto){
+			mostra("Acertou");
+			break;
+		} else if (rodada == 3){
+			mostra("Acabou as tentativas, o número sereto é: " + numeroSecreto);
+		} else{
+			mostra("Errou");
+		}
+		rodada++;
+	}
+
+	mostra("Fim")
+	
+</script>
