@@ -73,3 +73,5 @@ print(aparicoes_palavra)
 
 print(Counter(meu_texto).most_common(10))
 print(aparicoes_palavra.most_common(10))
+
+

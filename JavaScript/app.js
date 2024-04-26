@@ -70,3 +70,5 @@ function verificarChute(){
     }
     tentativas++
 }
+
+
