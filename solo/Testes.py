@@ -48,4 +48,4 @@ def lista2():
     print(f"O número digitado multiplicado por 2 é {x}")
     return x
 
-print(f"A divisão entre a função 1 e a função 2 é {lista()*lista2()}")
+print(f"A divisão entre a função 1 e a função 2 é {lista()/lista2()}")
