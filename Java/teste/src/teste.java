@@ -4,10 +4,13 @@ public class teste {
 
         String firstName = "Gabriel";
         String secondName = "Oliveira";
-        String nomeCompleto = nome(firstName,secondName);
-        System.out.print(nomeCompleto);
+        String fullName = nome(firstName,secondName);
+        System.out.print(fullName);
     }
+
     public static String nome(String firstName, String secondName){
         return "Nome Completo: " + firstName.concat(" ").concat(secondName);
-    }   
+    }
+
 }
+
