@@ -1,7 +1,4 @@
-#import sys
-#sys.path.append('c:/Users/gbrl_/OneDrive/Documentos/Alura/Python/Exercícios/modelos/')
 from modelos.avaliacao import Avaliacao
-
 class Restaurante:
     restaurantes = []
 
