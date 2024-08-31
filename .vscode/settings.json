@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/HTML/Testes/index4.html"
+    "livePreview.defaultPreviewPath": "/HTML/Testes/index4.html",
+    "python.analysis.autoImportCompletions": false
 }
