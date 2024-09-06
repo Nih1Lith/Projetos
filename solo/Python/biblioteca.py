@@ -11,10 +11,11 @@ print(livro_main)
 ano_especifico = 1940
 
 livros_disponiveis_ano = Livro.verificar_disponibilidade(ano_especifico)
-print(f'Livros disponíveis - {livros_disponiveis_ano}')
+
 
 def main():
     print('Biblioteca')
+    print(f'Livros disponíveis - {livros_disponiveis_ano}')
 
 if __name__ == '__main__':
     main()

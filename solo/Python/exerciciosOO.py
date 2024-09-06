@@ -96,7 +96,7 @@ class Livro:
 
     def __str__(self):
         #return f'{'Título:'.ljust(20)} | {'Autor:'.ljust(20)} | Ano de publicação:'
-        return f'{self._titulo.ljust(20)} | {self._autor.ljust(20)} | {self._ano_publicado} | {self._disponivel}'
+        return f'{self._titulo.ljust(20)} | {self._autor.ljust(20)} | {self._ano_publicado} | {'Disponível' if self._disponivel else 'Indisponível'}'
     
     def emprestar(self):
         self._disponivel = False
